@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<nav class="category-nav">
+    <button class="category-btn" onclick="scrollToSection('starters')">
+        <span class="btn-text">Starters</span>
+        <span class="hover-effect"></span>
+    </button>
+    <button class="category-btn" onclick="scrollToSection('mains')">
+        <span class="btn-text">Mains</span>
+        <span class="hover-effect"></span>
+    </button>
+    <button class="category-btn" onclick="scrollToSection('deserts')">
+        <span class="btn-text">Desserts</span>
+        <span class="hover-effect"></span>
+    </button>
+    <button class="category-btn" onclick="scrollToSection('drinks')">
+        <span class="btn-text">Drinks</span>
+        <span class="hover-effect"></span>
+    </button>
+</nav>
+
+    <!-- Menu Sections -->
+<section id="starters" class="menu-section">
+    <h2 class="section-title">Starters</h2>
+    <div class="menu-item" data-name="Truffle Salad" data-price="18.50">
+        <div class="item-content">
+            <h3 class="item-name">Truffle Salad</h3>
+            <p class="item-desc">Baby greens, black truffle vinaigrette, parmesan crisp</p>
+            <div class="item-footer">
+                <span class="item-price">$18.50</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+   <div class="menu-item" data-name="Garlic Toast" data-price="1.90">
+        <div class="item-content">
+            <h3 class="item-name">Garlic Toast</h3>
+            <p class="item-desc">Garlic, baked toast</p>
+            <div class="item-footer">
+                <span class="item-price">$1.90</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="mains" class="menu-section">
+        <h2>Mains</h2>
+        <div class="menu-item" data-name="Indomee" data-price="12.99">
+        <div class="item-content">
+            <h3 class="item-name">Indomee</h3>
+            <p class="item-desc">Noodle from Indonesia</p>
+            <div class="item-footer">
+                <span class="item-price">$12.99</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+        <div class="menu-item" data-name="Nasi Lemak" data-price="14.99">
+        <div class="item-content">
+            <h3 class="item-name">Nasi Lemak</h3>
+            <p class="item-desc">Rice, Sambal, Egg</p>
+            <div class="item-footer">
+                <span class="item-price">$14.99</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="deserts" class="menu-section">
+        <h2>Deserts</h2>
+                <div class="menu-item" data-name="Egg Tart" data-price="4.99">
+        <div class="item-content">
+            <h3 class="item-name">Egg Tart</h3>
+            <p class="item-desc">Egg, Crunchy</p>
+            <div class="item-footer">
+                <span class="item-price">$4.99</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+                <div class="menu-item" data-name="Tiramisu" data-price="6.99">
+        <div class="item-content">
+            <h3 class="item-name">Tiramisu</h3>
+            <p class="item-desc">Egg, Sugar, Chocolate, Coffee</p>
+            <div class="item-footer">
+                <span class="item-price">$6.99</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+      <div class="menu-item" data-name="Cheesecake" data-price="7.99">
+        <div class="item-content">
+            <h3 class="item-name">Cheesecake</h3>
+            <p class="item-desc">Cheese and Cake</p>
+            <div class="item-footer">
+                <span class="item-price">$7.99</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="drinks" class="menu-section">
+        <h2>Drinks</h2>
+        <div class="menu-item" data-name="Kopi O Kosong" data-price="7.99">
+        <div class="item-content">
+            <h3 class="item-name">Kopi O Kosong</h3>
+            <p class="item-desc">Black Coffee</p>
+            <div class="item-footer">
+                <span class="item-price">$7.99</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+              <div class="menu-item" data-name="Iced Tea" data-price="3.50">
+        <div class="item-content">
+            <h3 class="item-name">Iced Tea</h3>
+            <p class="item-desc">Black Tea, Ice</p>
+            <div class="item-footer">
+                <span class="item-price">$3.50</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+              <div class="menu-item" data-name="Lemonade" data-price="4.00">
+        <div class="item-content">
+            <h3 class="item-name">Lemonade</h3>
+            <p class="item-desc">Lemon, Water, Cup</p>
+            <div class="item-footer">
+                <span class="item-price">$4.00</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+                    <div class="menu-item" data-name="Teh Tarik" data-price="3.00">
+        <div class="item-content">
+            <h3 class="item-name">Teh Tarik</h3>
+            <p class="item-desc">Tea with Pull</p>
+            <div class="item-footer">
+                <span class="item-price">$3.00</span>
+                <span class="add-indicator">+</span>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script>
+        // Smooth scroll to section
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+            
+            // Update URL without reload (optional)
+            history.pushState(null, null, `#${sectionId}`);
+        }
+        
+        // Highlight active section while scrolling
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.menu-section');
+            const navButtons = document.querySelectorAll('.category-btn');
+            
+            sections.forEach((section, index) => {
+                const rect = section.getBoundingClientRect();
+            });
+        });
+    </script>
+
+<!-- Cart Floating Button -->
+<div class="cart-floater">
+    <div class="cart-icon-wrapper">
+        <span class="cart-icon">🛒</span>
+        <span class="cart-count">0</span>
+    </div>
+    <span class="cart-total">$0.00</span>
+</div>
+
+<!-- Cart Overlay -->
+<div class="cart-overlay">
+    <div class="cart-container">
+        <div class="cart-header">
+            <h3>Your Selection</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items"></div>
+        <div class="cart-footer">
+            <div class="cart-summary">
+                <span>Total</span>
+                <span class="grand-total">$0.00</span>
+            </div>
+            <button class="checkout-btn">Confirm Order</button>
+        </div>
+    </div>
+</div>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
