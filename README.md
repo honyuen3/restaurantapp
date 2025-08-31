@@ -6,5 +6,5 @@ A passionate Frontend Developer on a journey to craft elegant solutions to compl
 
 Welcome to my portfolio! This repository is a curated collection of my work, showcasing my skills, projects, and my journey as a developer. I'm actively seeking new opportunities and am excited to bring my passion and dedication to a great team.
 
-https://github.com/honyuen3/restaurantapp/blob/main/Screenshot%202025-08-31%20162012.png
-https://github.com/honyuen3/restaurantapp/blob/main/Screenshot%202025-08-31%20162039.png
+https://github.com/honyuen3/restaurantapp/blob/main/Screenshot%202025-08-31%20162012.png?raw=true
+https://github.com/honyuen3/restaurantapp/blob/main/Screenshot%202025-08-31%20162039.png?raw=true
